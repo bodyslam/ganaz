@@ -1,0 +1,33 @@
+{
+  "name": "ganaz",
+  "version": "1.0.0",
+  "description": "Take home for Tom Wong",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha __test__/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bodyslam/ganaz.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bodyslam/ganaz/issues"
+  },
+  "homepage": "https://github.com/bodyslam/ganaz#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "superstruct": "^0.15.3",
+    "ws": "^8.2.3"
+  },
+  "jest": {
+    "verbose": true
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "jest": "^27.3.1",
+    "mocha": "^9.1.3",
+    "supertest": "^6.1.6"
+  }
+}
